@@ -28,10 +28,10 @@ const WelcomeMessage = () => {
           alt="Bird Logo"
           className="mx-auto mb-4"
         />
-        <h2 className="text-2xl font-bold mb-4">Welcome to Feathered Freelance!</h2>
+        <h2 className="text-2xl font-bold mb-4">Welcome to Niche Nest!</h2>
         <p className="mb-4 text-lg">
-          🐦 Hi there, future freelancer! At Feathered Freelance, you can spread your wings and
-          showcase your unique services to a flock of potential clients. Whether you're offering
+          🐦 Hi there, future freelancer! At NicheNest, you can spread your wings and
+          showcase your unique services to a nest of potential clients. Whether you're offering
           personal services or creative gigs, our site is your platform to shine.
         </p>
         <p className="mb-4 text-lg">
