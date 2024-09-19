@@ -1,5 +1,6 @@
 import React, { useState, useContext, useEffect } from "react"
 import UserCarousel from "../components/UserCarousel.jsx"
+import WelcomeMessage from "../components/WelcomeMessage.jsx"
 import { AuthContext } from "../auth/AuthProvider.jsx"
 import { UserContext } from "../components/UserProvider.jsx"
 
@@ -13,6 +14,9 @@ const Home = () => {
   }
   return (
     <div>
+      <div>
+        < WelcomeMessage />
+      </div>
       <div className="flex justify-center text-2xl m-1">
         {/* { user && // TODO: for testing, remove
           Object.entries(user).map(([key, value]) => <div>{key}: {typeof(value) === "object" ? "object" : value}</div>)

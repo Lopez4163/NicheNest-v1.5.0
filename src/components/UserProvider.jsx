@@ -1,6 +1,6 @@
 import { createContext, useState, useEffect, useContext } from "react"
 import { AuthContext } from "../auth/AuthProvider.jsx"
-import { calculateAverageRating } from "../../utils/profileUtils";
+import { calculateAverageRating } from "../../utils/profileUtils.js";
 import Fetcher from "../fetcher.js"
 
 const UserContext = createContext();
