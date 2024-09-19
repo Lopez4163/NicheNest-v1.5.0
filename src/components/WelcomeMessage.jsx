@@ -21,10 +21,10 @@ const WelcomeMessage = () => {
   if (!isVisible) return null;
 
   return (
-    <div className="fixed inset-0 flex items-center justify-center bg-blue-900 bg-opacity-80 z-50">
+    <div className="fixed inset-0 flex items-center justify-center bg-yellow-600 bg-opacity-80 z-50">
       <div className="bg-white p-8 rounded-lg shadow-lg max-w-md mx-auto text-center">
         <img
-          src="https://via.placeholder.com/150?text=Bird+Logo"
+          src="/assets/logo.png"
           alt="Bird Logo"
           className="mx-auto mb-4"
         />
