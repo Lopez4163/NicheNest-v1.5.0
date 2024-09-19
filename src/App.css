@@ -1,0 +1,55 @@
+#root {
+  margin: 0;
+  text-align: center;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.app-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.containerColumn {
+  display: flex;
+  flex-direction: column
+}
+
+.containerForm {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  margin: .4em .2em;
+  padding: .2em;
+}
+
+.inputLine {
+  display: flex;
+  justify-content: space-between
+}
+
+.flexItemUniformSize {
+  display: flex; 
+  flex-basis: 0;
+  flex-grow: 1; 
+  flex-shrink: 1;
+}
+
+.textShadow {
+  text-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.4);
+}
+
+.buttonContainer {
+  display: flex;
+  place-content: center;
+  place-items: center;
+}
+
+.profile-spacing {
+  padding: 2rem;
+  margin: 2rem;
+}
