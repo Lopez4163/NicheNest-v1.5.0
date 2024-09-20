@@ -1,5 +1,7 @@
 // WelcomeMessage.js
 import React, { useState, useEffect } from 'react';
+import logo from '../assets/logo.png';
+
 
 const WelcomeMessage = () => {
   const [isVisible, setIsVisible] = useState(true);
@@ -24,7 +26,7 @@ const WelcomeMessage = () => {
     <div className="fixed inset-0 flex items-center justify-center bg-blue-300 bg-opacity-80 z-50">
       <div className="bg-white p-8 rounded-lg shadow-lg max-w-md mx-auto text-center">
         <img
-          src="/assets/logo.png"
+          src={logo}
           alt="Bird Logo"
           className="mx-auto mb-4"
         />
