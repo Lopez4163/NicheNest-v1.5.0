@@ -28,7 +28,7 @@ const WelcomeMessage = () => {
         <img
           src={logo}
           alt="Bird Logo"
-          className="mx-auto mb-4 h-60 w-72"
+          className="mx-auto mb-4 h-60 w-80"
         />
         <h2 className="text-2xl font-bold mb-4">Welcome to Niche Nest!</h2>
         <p className="mb-4 text-lg">
